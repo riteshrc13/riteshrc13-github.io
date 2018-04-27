@@ -17,7 +17,7 @@ body {
 
 .cabin {
     font-family: 'Cabin Sketch', cursive;
-    /*font-size: 3.5rem;*/
+    font-size: 3.5rem;
     font-weight: 100;
 }
 
@@ -25,6 +25,19 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.light-off {
+  background: url("../img/lightbulb-off.png") no-repeat !important;
+  background-position: center center;
+  display: block;
+  text-align: center;
+}
+
+.light-on {
+  background: url("../img/lightbulb-on.png");
+  opacity: 1;
+}
+
 /***==================arudhi-official color codes. credits: khushbu*/
 .home-subtext-body{
     margin-top: 20px;
@@ -113,6 +126,28 @@ h6 {
   pointer-events: none;
 }
 
+.header1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: auto;
+    background-color:transparent;  
+    
+    text-align: center;
+    line-height: 40px;
+}
+
+.header1-active {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
 .scroll-to-top {
   position: fixed;
   right: 15px;
@@ -149,8 +184,10 @@ h6 {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-01.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
+
+
 
 .masthead h1 {
   font-size: 4rem;
@@ -318,7 +355,7 @@ h6 {
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 1.2rem;
+  /*font-size: 1.2rem;*/
 }
 
 @media (min-width: 992px) {
@@ -359,8 +396,8 @@ h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 footer.footer .social-link {
