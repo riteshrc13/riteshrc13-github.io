@@ -26,13 +26,14 @@
     
     $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
-        $(".header1").addClass("header1-active");
+        $("#navtop").addClass("header1-active");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
-       $(".header1").removeClass("header1-active");
+       $("#navtop").removeClass("header1-active");
     }
 
-    
+    //check media screen
+
     </script>
     
     <style>
@@ -142,7 +143,7 @@
 
   <body id="page-top">
 
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top header-1" style="padding: 0 5rem 0 5rem">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top header1" id="navtop" style="padding: 0 5rem 0 5rem">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><img id="show" src="img/brand_logo.png" width="60" height="62" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -309,7 +310,7 @@
               <div class="col-sm-12 col-md-6 mt-5 mx-auto"><img id="img-body" src="img/pic3.png" /></div>
               
               <div class="col-sm-12 col-md-6 mx-auto">
-                  <h1 class="mb-1 cabin font-80">Business</h1>
+                  <h1 class="mb-1 cabin font-80 service-header-sw">Business</h1>
                   <h1 class="mb-1 cabin font-80 color-orange">Initiation</h1>
                   <p class="lead mb-1">We analyze feasibility of a new idea (or performance of an existing brand) to convert it to reach new height of success</p> <br />
                     <div class="separator"></div>
@@ -348,7 +349,7 @@
                <div class="col-sm-12 col-md-6">
               <span class="caption">
                 <span class="caption-content">
-                  <h1 class="mb-1 cabin font-80">Marketing &amp;</h1> <h1 class="mb-1 cabin font-80 color-orange">Branding</h1>
+                  <h1 class="mb-1 cabin font-80 service-header-sw">Marketing &amp;</h1> <h1 class="mb-1 cabin font-80 color-orange">Branding</h1>
                   <p class="mb-1 lead">To help you stand apart in the crowd, our creative team is ready to provide you outstanding visibility</p> <br />
                      <div class="separator"></div>
                     <p class="mb-7 lead">
@@ -369,7 +370,7 @@
               <div class="col-sm-12 col-md-6">
               <span class="caption">
                 <span class="caption-content">
-                  <h1 class="mb-1 cabin font-80">Accounting</h1><h1 class="mb-1 cabin font-80 color-orange">Services</h1>
+                  <h1 class="mb-1 cabin font-60 service-header-sw">Accounting</h1><h1 class="mb-1 cabin font-80 color-orange">Services</h1>
                   <p class="mb-1 lead mx-auto text-left">Get expert hands to shape your regular accounting details <br /> 
                     transparently in any format to smoothly drive your business</p> <br />
                      <div class="separator"></div>
@@ -390,7 +391,7 @@
               <div class="col-sm-12 col-md-6">
               <span class="caption">
                 <span class="caption-content">
-                  <h1 class="mb-1 cabin font-80">Digital</h1><h1 class="mb-1 cabin font-80 color-orange">Presence</h1>
+                  <h1 class="mb-1 cabin font-80 service-header-sw">Digital</h1><h1 class="mb-1 cabin font-80 color-orange">Presence</h1>
                   <p class="mb-1 lead">We have an experienced team to transform your business with the help of latest technologies</p> <br />
                      <div class="separator"></div>
                     <p class="mb-7 lead">
@@ -411,7 +412,7 @@
               <div class="col-sm-12 col-md-6">
               <span class="caption">
                 <span class="caption-content">
-                  <h1 class="mb-1 cabin font-80">Product</h1>
+                  <h1 class="mb-1 cabin font-80 service-header-sw">Product</h1>
                   <h1 class="mb-1 cabin font-80 color-orange">Consultancy</h1>
                   <p class="mb-1 lead">We can help your product to gain <br />the extra mileage with strong <br />management and necessary support</p> <br />
                      <div class="separator"></div>
