@@ -58,6 +58,10 @@ body {
     margin-bottom: 20px;
 }
 
+.service-header-sw {
+  color: #657687;
+}
+
 .color-orange {
     color: #fc4a1a;
 }
