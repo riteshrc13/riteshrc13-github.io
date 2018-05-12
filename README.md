@@ -9,6 +9,11 @@
 ## Copyright and License
 
 Copyright 2018 Arudhi.com. Code released under the [MIT] license.
-Website Layout Design and Illustration : Sonali M.
-Website Re-Coded and Developed : Ritesh RC.**[LINK TO RITESH RC](riteshrc13@gmail.com)**
-Content Concept: Abhishek GRoy.
+
+## Website Layout Design and Illustration : Sonali M.
+
+## Website Re-Coded and Developed : Ritesh RC.
+## -------------------------------------------
+**[LINK TO RITESH RC](riteshrc13@gmail.com)**
+
+## Content Concept: Abhishek GRoy.
