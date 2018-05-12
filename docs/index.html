@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="description" content="arudhi">
+    <meta name="author" content="arudhi">
+
+    <title>Arudhi</title>
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:light&subset=Latin" rel="stylesheet" />
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet" />
+    <link href="css/chevron-arw-down.css" rel="stylesheet" />
+
+    <!-- Fav-Icon -->
+    <link rel="icon" href="asset/img/favicon.png" type="image/gif" sizes="16x16">
+
+    <!-- StyleSheets Inline -->
+    <style>
+        .separator {
+            width: 100px;
+            border-bottom: 4px solid red;
+            margin-bottom: 20px;
+        }
+
+        .color-orange {
+            color: #fc4a1a;
+        }
+
+        .bg-color-dark-blue {
+            background-color: #333a56;
+        }
+
+        .color-dark-blue {
+            color: #333a56;
+        }
+
+        .color-white {
+            color: #ffffff;
+        }
+
+        .color-black {
+            color: #000;
+        }
+
+        .color-lightgray {
+            color: gray;
+        }
+
+        .font-20 {
+            font-size: 1.5rem;
+        }
+
+        .font-30 {
+            font-size: 2rem;
+        }
+
+        .font-40,
+        .font-25 {
+            font-size: 2.5rem;
+        }
+
+        .font-60,
+        .font-375 {
+            font-size: 3.75rem;
+        }
+
+        .font-72,
+        .font-45 {
+            font-size: 4.5rem;
+        }
+
+        .font-80,
+        .font-50 {
+            font-size: 5.0rem;
+        }
+
+        .font-100,
+        .font-575 {
+            font-kerning: auto;
+            font-size: 5.75rem;
+        }
+
+        #showbrand-logo {
+            opacity: 0;
+        }
+
+        @media (max-width: 400px) {
+            #img-body {
+                opacity: 0;
+                display: none;
+            }
+            #showbrand-logo {
+                opacity: 1;
+            }
+        }
+
+        .font-40 {
+            font-size: 2.5rem;
+        }
+
+        @media screen and (max-width: 600px) {
+            .font-40 {
+                font-size: 1.75rem;
+            }
+        }
+
+        .font-60 {
+            font-size: 3.75rem;
+        }
+
+        @media screen and (max-width: 600px) {
+            .font-60 {
+                font-size: 2rem;
+            }
+        }
+
+        .font-72 {
+            font-size: 4.5rem;
+        }
+
+        @media screen and (max-width: 600px) {
+            .font-72 {
+                font-size: 2.25rem;
+            }
+        }
+
+        .font-80 {
+            font-size: 5.0rem;
+        }
+
+        @media screen and (max-width: 600px) {
+            .font-80 {
+                font-size: 3.50rem;
+            }
+        }
+
+        .font-100 {
+            font-size: 5.75rem;
+        }
+
+        @media screen and (max-width: 600px) {
+            .font-100 {
+                font-size: 3.75rem;
+            }
+        }
+
+        .push-left {
+            text-align: left;
+            float: left;
+        }
+
+        .push-right {
+            text-align: right;
+            float: right;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top header1 nova" id="navtop" style="padding: 0 5rem 0 5rem">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img id="show" src="img/brand_logo.png" width="60" height="62" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link js-scroll-trigger" href="#page-top">Home  <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">AboutUs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#services">OurServices</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">ContactUs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+            <h2 class="mb-1 cabin font-60">The wise only possess ideas</h2>
+            <h1 class="mb-5 cabin color-orange font-100">We nurture that</h1>
+            <div class="separator-about"></div>
+            <h3 class="mb-5 ubuntu mt-5">
+                We offer A – Z offshore services to cater to all your business <br />needs thus saving your time, effort and money.
+            </h3>
+            <a class="btn btn-dark rounded-circle js-scroll-trigger mb-7" href="#about"><i class="fa fa-2x fa-angle-down"></i></a>
+        </div>
+        <div class="overlay mb-7"></div>
+    </header>
+
+
+    <!-- About -->
+    <section class="content-section" id="about">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12 mx-auto mt-7">
+                    <p>&nbsp;</p>
+                    <h3 class="mt-7 mb-1 cabin font-40 text-center">Have you ever thought of</h3>
+                    <h3 class="mb-1 cabin font-40 text-center"> one stop retailer for all your business needs?</h3>
+                    <h2 class="mb-5 cabin font-60 color-orange text-center">Yes, you have reached the right place.</h2>
+                </div>
+                <div class="separator-about mb-5"></div>
+                <div class="">
+                    <p class="lead mb-7" style="padding-left: 1rem; padding-right: 1rem">
+                        Arudhi is a global retail offshore service provider of business-to-business services to accelerate growth of entrepreneurs and enterprises. We have a pool of talented resources with diversified skill sets who are well equipped to assist you in meeting the smallest to the more complex business needs. Whether you have a one-time necessity or a set of different requirements, Arudhi is the one stop solution to save your time, effort, hassle and money.
+                    </p>
+                    <div style="opacity: 0;"><a class="btn btn-dark rounded-circle js-scroll-trigger mb-7" href="#services"><i class="fa fa-2x fa-angle-down"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speak OUT --
+    <section class="callout">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5">Welcome to
+          <em>Arudhi's</em>
+          next website!</h2>
+        <a class="btn btn-primary btn-xl" href="#">Download the App!</a>
+      </div>
+    </section>
+    -->
+    <!-- Services -->
+    <section class="content-section" id="services">
+        <div class="container-fluid">
+            <div class="content-section-heading text-center mt-7">
+                <h1 class="mb-1 cabin font-40 color-dark-blue">Our Services</h1>
+                <div class="separator-services"></div>
+                <div class="color-dark-blue nova mb-5">
+                    <i class="fa fa-check-square"></i>&nbsp;Business Initiation
+                    <i class="fa fa-check-square"></i>&nbsp;Strategy
+                    <i class="fa fa-check-square"></i>&nbsp;Marketing &amp; Branding
+                    <i class="fa fa-check-square"></i>&nbsp;Accounting Services
+                    <i class="fa fa-check-square"></i>&nbsp;Digital Presence
+                    <i class="fa fa-check-square"></i>&nbsp;Product Consultancy
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <!----business initiation -->
+                <div class="container">
+                    <div class="row force-gutters">
+
+                        <div class="col-sm-12 col-md-5"><img id="img-body" src="img/pic3.png" /></div>
+
+                        <div class="col-sm-12 col-md-2"><img src="img/spacer.png" /></div>
+
+                        <div class="col-sm-12 col-md-5">
+                            <h1 class="mb-1 cabin font-80 service-header-sw">Business</h1>
+                            <h1 class="mb-1 cabin font-80 color-orange">Initiation</h1>
+                            <p class="lead mb-1">We analyze feasibility of a new idea (or performance of an existing brand) to convert it to reach new height of success</p> <br />
+                            <div class="separator"></div>
+                            <p class="lead mb-7">We offer the following services to initiate your potential business idea - <br /><br />
+                                <span class="checkmark">&#8226</span>&nbsp;<strong>Market Research &amp; Analysis</strong> <br />
+                                <span class="checkmark">&#8226</span>&nbsp;<strong>Process Standardization</strong> <br />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container text-center my-auto mb-7"><span class="text-primary small">see more...</span><br />
+                    <a class="color-orange js-scroll-trigger mb-7" href="#service-con"><i class="fa fa-2x fa-angle-down"></i></a>
+                </div>
+
+                <div class="container my-auto text-center" id="service-con">
+                    <div class="mb-7">
+                        <div></div>
+                    </div>
+                </div>
+
+                <!-- strategy -->
+                <div class="container">
+                    <div class="row no-gutters">
+                        <div class="col-sm-12 col-md-5">
+                            <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-1 cabin font-80 color-orange">Strategy</h1>
+                  <p class="mb-1 lead">We help you with a 360-degree consultancy to design your successful business roadmap</p> <br />
+                     <div class="separator"></div>
+                    <p class="mb-7 lead">
+                    We offer the following services to strategize your potential business idea - <br /><br />
+                    <span class="checkmark">&#8226</span>&nbsp;<strong>Marketing Strategy</strong> <br />
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>Competetor Analysis</strong> <br />
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>Growth Strategy</strong> <br />
+                            </p>
+                            </span>
+                            </span>
+                        </div>
+
+                        <div class="col-sm-12 col-md-2"><img class="img-body" src="img/spacer.png" /></div>
+
+                        <div class="col-sm-12 col-md-5 mt-5"><img class="img-body" src="img/pic4.png" /></div>
+                    </div>
+
+                    <!-- marketing and branding -->
+                    <div class="row force-gutters">
+                        <div class="col-sm-12 col-md-5 mt-5"><img id="img-body" src="img/pic1.png" /></div>
+
+                        <div class="col-sm-12 col-md-2"><img src="img/spacer.png" /></div>
+
+                        <div class="col-sm-12 col-md-5">
+                            <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-1 cabin font-80 service-header-sw">Marketing &amp;</h1> <h1 class="mb-1 cabin font-80 color-orange">Branding</h1>
+                  <p class="mb-1 lead">To help you stand apart in the crowd, our creative team is ready to provide you outstanding visibility</p> <br />
+                     <div class="separator"></div>
+                    <p class="mb-7 lead">
+                    We offer the following services to market your potential business idea - <br /><br />
+                    <span class="checkmark">&#8226</span>&nbsp;<strong>Digital Marketing</strong><br />
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>Print &amp; Publication</strong><br />
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>Content Creation</strong><br />
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>Branding Material</strong><br />
+                            </p>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- accounting services -->
+                    <div class="row force-gutters">
+
+                        <div class="col-sm-12 col-md-5">
+                            <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-1 cabin font-80 service-header-sw">Accounting</h1><h1 class="mb-1 cabin font-80 color-orange">Services</h1>
+                  <p class="mb-1 lead mx-auto text-left">Get expert hands to shape your regular accounting details <br /> 
+                    transparently in any format to smoothly drive your business</p> <br />
+                     <div class="separator"></div>
+                    <p class="mb-7 lead">
+                    We offer the following services to maintain accounts for your potential business idea - <br /><br />
+                    <span class="checkmark">&#8226</span>&nbsp;<strong>Management Reporting</strong> <br />
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>CXO Level Report</strong> <br />
+                            </p>
+                            </span>
+                            </span>
+                        </div>
+
+                        <div class="col-sm-12 col-md-2"><img src="img/spacer.png" /></div>
+
+                        <div class="col-sm-12 col-md-5"><img id="img-body" src="img/pic2.png" /></div>
+                    </div>
+
+                    <!--digital presence -->
+                    <div class="row force-gutters">
+                        <div class="col-sm-12 col-md-5 mt-7"><img id="img-body" src="img/pic6.png" /></div>
+
+                        <div class="col-sm-12 col-md-2"><img src="img/spacer.png" /></div>
+
+                        <div class="col-sm-12 col-md-5">
+                            <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-1 cabin font-80 service-header-sw">Digital</h1><h1 class="mb-1 cabin font-80 color-orange">Presence</h1>
+                  <p class="mb-1 lead">We have an experienced team to transform your business with the help of latest technologies</p> <br />
+                     <div class="separator"></div>
+                    <p class="mb-7 lead">
+                    We offer the following services to digitalize your potential business idea -  <br /><br />
+                    <span class="checkmark">&#8226</span>&nbsp;<strong>Web Integration</strong> <br />
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>App Development</strong> <br />
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>Service Integration</strong> <br />
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>Automation</strong> <br />
+                            </p>
+                            </span>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- product consultancy -->
+                    <div class="row force-gutters">
+
+                        <div class="col-sm-12 col-md-5">
+                            <span class="caption">
+                <span class="caption-content">
+                  <h1 class="mb-1 cabin font-80 service-header-sw">Product</h1>
+                  <h1 class="mb-1 cabin font-80 color-orange">Consultancy</h1>
+                  <p class="mb-1 lead">We can help your product to gain <br />the extra mileage with strong <br />management and necessary support</p> <br />
+                     <div class="separator"></div>
+                    <p class="mb-7 lead">
+                    We offer the following services to productionize your potential business idea - <br /><br />
+                    <span class="checkmark">&#8226</span>&nbsp;<strong>Productivity Improvement</strong> <br />
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>Incorporation of Automation</strong> <br />
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>Vendor Development</strong><br/>
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>Inventory Management System</strong><br/>
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>Energy Management</strong><br/>
+                            <span class="checkmark">&#8226</span>&nbsp;<strong>System Controlled Maintenance Management</strong> <br />
+                            </p>
+                            </span>
+                            </span>
+                        </div>
+
+                        <div class="col-sm-12 col-md-2"><img src="img/spacer.png" /></div>
+
+                        <div class="col-sm-12 col-md-5 mt-7"><img id="img-body" src="img/pic5.png" /></div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!-- end services ---->
+
+
+    <!-- Speak OUT -->
+    <section class="content content-section" id="contact">
+        <div class="container text-center">
+            <div class="mb-7 content-footer-starter"><img class="img-fluid" src="" /></div>
+
+            <h2 class="mx-auto mb-5"><span class="ubuntu font-30 color-orange">However</span>
+                <span class="ubuntu font-30 color-dark-blue">, our services are not limited to those mentioned. <br />
+            Reach us for further details.</span></h2>
+            <!-- <a class="btn bg-color-dark-blue rounded-circle js-scroll-trigger" href="#about" style="color: white;"><i class="fa fa-angle-down"></i></a> -->
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <div id="image-footer">
+        <img class="img-fluid mt-5" src="img/bg-02-t.png" alt="" />
+    </div>
+
+    <div class="row bg-color-dark-blue color-white">
+        <div class="column">
+            <div>
+                <i class="fa fa-map-marker">&nbsp;</i>30th, Cross Street, Besant Nagar, Chennai-600090, Tamil Nadu
+                <br /> Copyright &copy; 2018 Arudhi. All Rights Reserved.
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <i class="fa fa-envelope">&nbsp;</i>contact@aruhdi.com
+            </div>
+        </div>
+        <div class="column">
+            <a href="" target="_blank" class="mr-5"><i class="fa fa-2x fa-facebook color-white"></i></a>
+            <a href="" target="_blank" class="mr-5"><i class="fa fa-2x fa-twitter color-white"></i></a>
+            <a href="" target="_blank"><i class="fa fa-2x fa-linkedin color-white"></i></a>
+
+        </div>
+    </div>
+    <div class="box-base">
+        <div class="box-glower"></div>
+    </div>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create three equal columns that floats next to each other */
+
+        .column {
+            float: left;
+            width: 25.33%;
+            padding: 15px 0 5px 0;
+            margin-left: 100px;
+            height: 70px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                padding: 12px;
+                margin-left: 30px;
+
+            }
+        }
+    </style>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded-circle js-scroll-trigger" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+    <script>
+        //onscrollfadein
+        $(document).ready(function() {
+            var winW = parseInt($(window).width());
+            var winH = parseInt($(document).height());
+
+            $(window).scroll(function() {
+                var scrollX = parseInt($(window).scrollLeft());
+                var scrollY = parseInt($(window).scrollTop());
+
+
+                $(".box-glower").each(function() {
+                    /*
+                    var boxOffset = $(this).offset();
+                    var boxX = parseInt(boxOffset.left);
+                    var boxY = parseInt(boxOffset.top);
+                    */
+
+                    // vertically calculated
+                    var new_opacity = 1 - ((winH - scrollY) / winH);
+
+                    // horizontally calculated
+                    // var new_opacity = 1-((boxX-scrollX)/winW);
+
+                    new_opacity = (new_opacity < 0) ? 0 : new_opacity;
+                    new_opacity = (new_opacity > 1) ? 1 : new_opacity;
+                    $(this).css({
+                        'opacity': new_opacity
+                    });
+                    $('.box-base').css({
+                        'opacity': new_opacity
+                    });
+                    //$('#navbar').toggleClass('header1-active');
+                    // $(this).text(new_opacity);
+
+                    //output new opcity val            $('span').text(new_opacity);
+                });
+            });
+        });
+
+        //-- navigation shadow on window scroll --
+
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                let scTop = $(window).scrollTop();
+                if (scTop > 300) {
+                    $('#navtop').addClass('navactive');
+                } else {
+                    $('#navtop').removeClass('navactive');
+                }
+
+                /*$('.navactive').css({
+                  opacity: (sT < 201 ? 0 : (sT > 300 ? 1 : (sT - 200)/100))
+                })*/
+            });
+        });
+    </script>
+</body>
+
+</html>
