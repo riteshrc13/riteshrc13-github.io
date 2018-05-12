@@ -1,10 +1,10 @@
-# [Arudhi Web - A One-Stop Business Destination](https://riteshrc13.github.io)
+# [Arudhi Web - A One-Stop Business Destination](https://riteshrc13.github.io/img/favicon.png)
 
 ## Preview
 
-[![Stylish Portfolio Preview](https://riteshrc13.github.io/assets/img/header-img.png)](https://riteshrc13.github.io/riteshrc13.github.io/)
+[![Arudhi Preview](https://riteshrc13.github.io/img/header-img.png)]
 
-**[View Live Preview](https://riteshrc13.github.io/)**
+**[View Live Preview](https://riteshrc13.github.io/docs)**
 
 ## Copyright and License
 
